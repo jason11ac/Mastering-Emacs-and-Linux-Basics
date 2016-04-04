@@ -1,0 +1,104 @@
+~~~~~~~~~
+ans1.txt
+~~~~~~~~~
+
+1. I first searched man man for the word "keyword" by using the / key and typin\
+g keyword. I then found the instruction man -k and that looked like the correct\
+flag for searching command manuals for a certain keyword. I then tested it and \
+it was successful. (man -k "keyword")
+
+2. I used the which command and typed which cp and which wc to get 
+/usr/local/cs/bin/cp, /usr/local/cs/bin/wc. This is the path of where
+these two programs are located. 
+
+3. I went into the /usr/bin directory by typing cd /usr/bin. 
+I then used the find command by typing find ?, with the 
+question mark meaning any one letter program. 
+My output for find ? was: [ w X 
+I then searched the manuals of all three by typing man [, man w, man X.
+
+[ - Used to check file types and compare values, no man page. 
+w - Shows who is logged on what they are doing.
+X - The original X server executable of MIT's X Window System, no man page.
+
+4. I first did cd /usr/bin to get into the correct directory. Then I typed 
+ls -l emacs and this line was outputted:
+
+lrwxrwxrwx 1 root root 23 Dec 22 11:36 emacs -> /etc/alternatives/emacs
+
+showing where the symbolic link emacs leads to.  
+
+5. To find what these modes mean I used the chmod manual by typing man chmod.
+g: the g refers to other users in the particular group of the file. 
+s: the s sets user or group ID on execution. 
+Therefore, g+s, sets the group ID on execution. 
+o: the o refers to other users not in the file's group
+x: the x means executable. 
+Therefore, o-x, makes it so a file can not be executed by users 
+not in its group. 
+
+6. Looking in the manual for find (man find), if you type 
+find -mtime 21, because 3 weeks is 21 days, all the files 
+that were modified exactly 3 weeks ago will be outputted. 
+When I test the command out the output is ./firefox because 
+I just updated my version of Firefox 3 weeks ago exactly. 
+If I type find -mtime -21, a large amount of files are 
+outputting showing me all the files that have been changed 
+sometime in the last 3 weeks.
+
+7. To do this I typed find -type d -mtime -21, which searches 
+for only directories that have been modified in the past 3 weeks. 
+
+8. Using find and wc (word count), I typed find -type l | wc -l, 
+which finds all the symbolic links and counts the number of lines 
+outputted, telling us how many links there are in the directory.
+The number outputted was 287.  
+
+9. To find the oldest regular file in /usr/lib I entered the directory 
+by typing cd /usr/lib. I then typed ls -l -t | tail -1, which gives me 
+a detailed listing of files and directories in order of their 
+modification date, newest first. Therefore, I used tail -1 to 
+give me the oldest file, which was actually a directory called kbd. 
+The oldest regular file is libfreeblpriv3.so. 
+
+10. According to the locale man page, the locale command gets its data 
+from LC * environment variables. This information can be found in the 
+manual of locale, by typing man locale. 
+
+11. Looking into the emacs detailed manual by typing emacs, then C-h r, 
+then using C-s, I incremented through various keywords of "sort" in 
+the emacs manual and found these 13 commands with sort in their names:
+sort-lines, sort-paragraphs, sort-pages, sort-fields, sort-numeric-fields, 
+sort-columns, rmail-sort-by-date, rmail-sort-by-subject, rmail-sort-by-author
+rmail-sort-by-recipient, rmail-sort-by-correspondent, 
+rmail-sort-by-lines, rmail-sort-by-labels. 
+
+12. I decided to test all of the keystrokes out individually on a 
+test file, txt.txt which holds 8 f's. 
+
+C-M-a: Moves cursor backwards to the beginning of the 
+       function/buffer (backward function)
+C-M-b: Moves cursor backward to the beginning of the line (backward sexp)
+C-M-c: Same as C-c, part of exiting and other commands (Exit recursive edit) 
+C-M-d: Does nothing, undefined 
+C-M-e: Moves cursor forward to the end of the function/buffer
+       (forward function)
+C-M-f: Moves cursor forward to the end of the line (forward sexp)    
+C-M-g: Quit/cancel a command (same as C-g)
+C-M-h: Sets a mark set at the beginning of the function/buffer
+       (Mark function)
+
+13. C-g quits/cancels the currently running command or any typed keystroke 
+immediately, without harming anything else in the file. 
+
+14. The emacs yank function reinserts text previously killed, basically 
+like copying and pasting. Yanking is the pasting. Yanking pastes from 
+the "kill ring". 
+
+15. Dired differs from ls -l in that it displays some subdirectories, 
+as stated in the emacs manual. After using two terminal windows and 
+comparing the two side by side it was clear dired displayed a lot 
+more results than ls -l. 
+
+
+

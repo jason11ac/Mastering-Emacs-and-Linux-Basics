@@ -1,0 +1,78 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf110
+{\fonttbl\f0\froman\fcharset0 Times-Roman;\f1\fmodern\fcharset0 Courier;}
+{\colortbl;\red255\green255\blue255;}
+{\*\listtable{\list\listtemplateid1\listhybrid{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{decimal\}}{\leveltext\leveltemplateid1\'01\'00;}{\levelnumbers\'01;}\fi-360\li720\lin720 }{\listname ;}\listid1}}
+{\*\listoverridetable{\listoverride\listid1\listoverridecount0\ls1}}
+\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\deftab720
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls1\ilvl0
+\f0\fs32 \cf0 {\listtext	1	}\expnd0\expndtw0\kerning0
+How can you get 
+\f1\fs26 man
+\f0\fs32  to print all the commands that have a specific word in their man page (or at least the description part of the man page)? (hint: 
+\f1\fs26 man man
+\f0\fs32 )\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls1\ilvl0\cf0 \kerning1\expnd0\expndtw0 {\listtext	2	}\expnd0\expndtw0\kerning0
+Where are the 
+\f1\fs26 cp
+\f0\fs32  and 
+\f1\fs26 wc
+\f0\fs32  programs located in the file system?\
+\ls1\ilvl0\kerning1\expnd0\expndtw0 {\listtext	3	}\expnd0\expndtw0\kerning0
+What executable programs have names that are just one character long, and what do they do?\
+\ls1\ilvl0\kerning1\expnd0\expndtw0 {\listtext	4	}\expnd0\expndtw0\kerning0
+When you execute the command named by the symbolic link 
+\f1\fs26 /usr/bin/emacs
+\f0\fs32 , which file actually is executed?\
+\ls1\ilvl0\kerning1\expnd0\expndtw0 {\listtext	5	}\expnd0\expndtw0\kerning0
+The 
+\f1\fs26 chmod
+\f0\fs32  program changes permissions on a file. What does the symbolic mode 
+\f1\fs26 g+s,o-x
+\f0\fs32  mean, in terms of permissions?\
+\ls1\ilvl0\kerning1\expnd0\expndtw0 {\listtext	6	}\expnd0\expndtw0\kerning0
+What option to 
+\f1\fs26 find
+\f0\fs32  lets you search for files that have been modified in the last three weeks?\
+\ls1\ilvl0\kerning1\expnd0\expndtw0 {\listtext	7	}\expnd0\expndtw0\kerning0
+Use the previous answer to find all directories modified in the last three weeks.\
+\ls1\ilvl0\kerning1\expnd0\expndtw0 {\listtext	8	}\expnd0\expndtw0\kerning0
+Of the files in the same directory as 
+\f1\fs26 find
+\f0\fs32 , how many of them are symbolic links?\
+\ls1\ilvl0\kerning1\expnd0\expndtw0 {\listtext	9	}\expnd0\expndtw0\kerning0
+What is the oldest regular file in the 
+\f1\fs26 /usr/lib
+\f0\fs32  directory?\
+\ls1\ilvl0\kerning1\expnd0\expndtw0 {\listtext	10	}\expnd0\expndtw0\kerning0
+Where does the 
+\f1\fs26 locale
+\f0\fs32  command get its data from?\
+\ls1\ilvl0\kerning1\expnd0\expndtw0 {\listtext	11	}\expnd0\expndtw0\kerning0
+In Emacs, what commands have 
+\f1\fs26 sort
+\f0\fs32  in their name?\
+\ls1\ilvl0\kerning1\expnd0\expndtw0 {\listtext	12	}\expnd0\expndtw0\kerning0
+Briefly, what do the Emacs keystrokes 
+\f1\fs26 C-M-a
+\f0\fs32  through 
+\f1\fs26 C-M-h
+\f0\fs32  do? Can you list their actions concisely?\
+\ls1\ilvl0\kerning1\expnd0\expndtw0 {\listtext	13	}\expnd0\expndtw0\kerning0
+In more detail, what does the Emacs keystroke 
+\f1\fs26 C-g
+\f0\fs32  do?\
+\ls1\ilvl0\kerning1\expnd0\expndtw0 {\listtext	14	}\expnd0\expndtw0\kerning0
+What does the Emacs 
+\f1\fs26 yank
+\f0\fs32  function do?\
+\ls1\ilvl0\kerning1\expnd0\expndtw0 {\listtext	15	}\expnd0\expndtw0\kerning0
+When looking at the directory 
+\f1\fs26 /usr/bin
+\f0\fs32 , what's the difference between the output of the 
+\f1\fs26 ls -l
+\f0\fs32  command, and the directory listing of the Emacs 
+\f1\fs26 dired
+\f0\fs32  command?}
